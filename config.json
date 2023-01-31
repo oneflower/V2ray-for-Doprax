@@ -10,14 +10,14 @@
 			"protocol": "vmess",
 			"settings": {
 				"clients": [{
-					"id": "afa1d067-96f4-41bd-88f0-b6d85e78d54f",
+					"id": "UUID",
 					"alterId": 0
 				}]
 			},
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/vmess"
+					"path": "VMESS_WSPATH"
 				}
 			}
 		},
@@ -27,14 +27,14 @@
 			"protocol": "vless",
 			"settings": {
 				"clients": [{
-					"id": "afa1d067-96f4-41bd-88f0-b6d85e78d54f"
+					"id": "UUID"
 				}],
 				"decryption": "none"
 			},
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/vless"
+					"path": "VLESS_WSPATH"
 				}
 			}
 		}
